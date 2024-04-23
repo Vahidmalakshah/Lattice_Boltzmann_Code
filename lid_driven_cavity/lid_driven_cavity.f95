@@ -1,4 +1,6 @@
 ! computer code for lid-driven cavity
+! Vahid Mollania Malakshah
+! vahid.m.malakshah1998@gmail.com
 module variables
     integer :: m ,n, i, j, k,mstep,kk
     Real(8), Dimension(:,:,:), Allocatable :: f, feq
